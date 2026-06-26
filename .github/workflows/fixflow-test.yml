@@ -1,0 +1,12 @@
+name: FixFlow Test
+
+on:
+  push:
+
+jobs:
+  fail:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Intentional Failure
+        run: exit 1
