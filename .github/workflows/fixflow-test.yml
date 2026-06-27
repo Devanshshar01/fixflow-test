@@ -9,4 +9,4 @@ jobs:
 
     steps:
       - name: Intentional Failure
-        run: exit 1
+        run: exit 1 
